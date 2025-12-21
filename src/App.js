@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1> Dice Roll Game 🎲 </h1>
+      <h1> Hello, Want to play dice game? </h1>
       <p>Click the button to roll the dice</p>
 
       <div className="dice">{dice}</div>
