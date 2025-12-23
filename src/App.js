@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 function App() {
     const [dice, setDice] = useState(0);
+    const [showNextTurn, setShowNextTurn] = useState(false);
 
   const rollDice = () => {
     const randomNumber = Math.floor(Math.random() * 6) + 1;
