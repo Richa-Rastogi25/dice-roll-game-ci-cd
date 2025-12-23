@@ -15,12 +15,12 @@ function App() {
     setTimeout(() => {
       setShowNextTurn(false);
       setTurn(prev => prev + 1);
-    }, 1000); // text shown for 1 second
+    }, 5000); // text shown for 1 second
   }
 
   return (
     <div className="container">
-      <h1> Roll the dice by just clicking the button! </h1>
+      <h1> Roll the dice, let's see who wins? </h1>
       <p>Click the button to roll the dice</p>
 
       <div className="dice">{dice}</div>
@@ -28,7 +28,7 @@ function App() {
       <button onClick={rollDice}>🎲 Roll Dice</button>
 
       {showNextTurn && (
-        <p className="next-turn">🎉 Next Turn: Player {turn + 1} 🎉</p>
+        <p className="next-turn">🎉 Next Turn: Player {turn + 1} </p>
       )}
     </div>
   );

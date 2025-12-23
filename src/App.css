@@ -17,20 +17,20 @@ body {
 button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #ff9800;
+  background-color: #ff3700;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #e68900;
+  background-color: #ffdbc2;
 }
 
 .next-turn {
   margin-top: 20px;
   font-size: 20px;
   color: white;
-  background-color: #4caf50;
+  background-color: #4caf4f6f;
   padding: 10px 20px;
   border-radius: 10px;
   animation: flash 1s ease;
