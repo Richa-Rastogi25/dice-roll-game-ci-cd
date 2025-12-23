@@ -1,4 +1,4 @@
-name: Deploy React App Game to S3
+name: CI/CD Deployment React Game to S3
 
 on:
   push:
