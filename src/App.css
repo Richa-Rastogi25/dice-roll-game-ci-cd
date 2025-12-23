@@ -33,7 +33,7 @@ button:hover {
   background-color: #4caf4f6f;
   padding: 10px 20px;
   border-radius: 10px;
-  animation: flash 1s ease;
+  animation: flash 8s ease;
   text-align: center;
 }
 

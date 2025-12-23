@@ -14,8 +14,8 @@ function App() {
     setShowNextTurn(true);
     setTimeout(() => {
       setShowNextTurn(false);
-      setTurn(prev => prev + 1);
-    }, 5000); // text shown for 1 second
+      setTurn(prev => prev + 0);
+    }, 8000); // text shown for 8 second
   }
 
   return (
