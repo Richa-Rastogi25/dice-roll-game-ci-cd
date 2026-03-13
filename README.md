@@ -11,14 +11,14 @@
 5. Eliminate manual deployment steps and ensure consistent and reliable application delivery.
 
 Services Integrated in the Project
-----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------+
 | Service	         |  Purpose                                                          |
-----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------+
 | GitHub	         |   Used for source code version control and repository management  |
 | AWS S3	         |   Hosts the static web application (React / HTML / CSS)           | 
-| AWS IAM User	   |   Provides secure programmatic access credentials for deployment  |
-| GitHub Actions	 |   Automates CI/CD pipeline (build, test, deploy)                  |
-----------------------------------------------------------------------------------------
+| AWS IAM User	  |   Provides secure programmatic access credentials for deployment  |
+| GitHub Actions	  |   Automates CI/CD pipeline (build, test, deploy)                  |
+-------------------------------------------------------------------------------------------+
 
 **Project Workflow**
 The project follows an automated deployment workflow:-
